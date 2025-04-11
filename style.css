@@ -1,0 +1,86 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: ;
+    justify-content: ;
+    align-items: center;
+    padding: 10px;
+    background-color: #232f3e;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    padding: 5px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  /* Hero Section */
+  
+  /* Product Grid */
+  .product-grid {
+    display: ;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+   width:50px;
+   height:70px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+  }
+  
+  .product-card button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    position: fixed; /* Ensures the footer stays fixed at the bottom */
+    bottom: 0; /* Positions it at the very bottom of the viewport */
+    width: 100%; /* Makes it span across the entire width */
+    background-color: #232f3e; /* Optional: Add a background color for visibility */
+    color: white; /* Optional: Text color */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
